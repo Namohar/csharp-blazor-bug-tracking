@@ -6,6 +6,7 @@
             <th>Title</th>
             <th>Description</th>
             <th>Priority</th>
+            <th>Comments</th>
         </tr>
     </thead>
     @foreach (var bug in Bugs)
@@ -15,6 +16,7 @@
             <td>@bug.Title</td>
             <td>@bug.Description</td>
             <td>@bug.Priority</td>
+            <td>@bug.Comments</td>
         </tr>
     }
 </table>
